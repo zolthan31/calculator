@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url('./fontes/RobotoMono-MediumItalic.ttf');
+
+}
+
+* {
+  font-family: 'RobotoMono', monospace;
+}
+
+body {
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+color: #ffffff;
+background: linear-gradient(to right, #ffd89b,#19547b);
+}
